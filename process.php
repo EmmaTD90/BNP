@@ -36,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     ";
 
     // Envoi de l'email
-    $headers = "From: no-reply@votre-site.com";
+    $headers = "From: no-reply@emmatd90.github.io/BNP/.com";
     if (mail($to, $subject, $message, $headers)) {
         echo "Success";
     } else {
